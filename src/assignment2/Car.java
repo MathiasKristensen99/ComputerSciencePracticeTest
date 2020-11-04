@@ -16,14 +16,15 @@ public class Car
     private int maxKilometersPerHour = 10;
     private String manufactor = "Renault";
 
+
+
     /**
      *
      * @return The value of the maxKilometersPerHour instance variable
      */
     public int getMaxKilometersPerHour()
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        return this.maxKilometersPerHour;
     }
 
     /**
@@ -34,8 +35,7 @@ public class Car
      */
     public void setMaxKilometersPerHour(int maxKilometersPerHour)
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        this.maxKilometersPerHour = maxKilometersPerHour;
     }
 
     /**
@@ -44,8 +44,7 @@ public class Car
      */
     public String getManufactor()
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        return this.manufactor;
     }
 
     /**
@@ -56,8 +55,7 @@ public class Car
      */
     public void setManufactor(String manufactor)
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        this.manufactor = manufactor;
     }
 
     /**
@@ -66,8 +64,7 @@ public class Car
      */
     public double getPrice()
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        return this.price;
     }
 
     /**
@@ -75,11 +72,9 @@ public class Car
      * and greater than zero
      *
      * @param price
+     * @return
      */
-    public void setPrice(double price)
-    {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+    public void setPrice(double price) {
+        this.price = price;
     }
-
 }

@@ -27,8 +27,12 @@ public class CarDealerShip
      */
     public void addCarForSale(Car car)
     {
-        //TODO Implement this method
-        throw new UnsupportedOperationException();
+        Car car1 = new Car();
+        car1.setPrice(1500);
+
+        Car car2 = new Car();
+        car2.setPrice(500);
+
     }
     
     /**
